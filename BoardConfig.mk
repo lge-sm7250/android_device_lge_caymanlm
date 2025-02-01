@@ -9,3 +9,6 @@ include device/lge/sm7250-common/BoardConfigCommon.mk
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lineageos_cayman_defconfig
+
+# Inherit vendor BoardConfig
+include vendor/lge/caymanlm/BoardConfigVendor.mk
